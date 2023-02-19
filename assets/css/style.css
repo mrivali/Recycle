@@ -132,7 +132,7 @@ html {
 }
 
 body {
-  	font-size: 14px;
+  	font-size: 30px;
   	-webkit-font-smoothing: antialiased;
   		-moz-osx-font-smoothing: grayscale;
   	font-family: "Oswald", sans-serif;
@@ -5404,6 +5404,7 @@ body.anim .load-title-fill:after {
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
+				
 	}
 	
 	.footer-menu,
