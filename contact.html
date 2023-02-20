@@ -132,8 +132,8 @@
 				  			<div class="content-left-margin-40">
 				  				<h2 class="large-title-bold">
 									<span class="load-title-fill tr-delay03" data-text="We Are Here">We Are Here</span><br>
-									<span class="load-title-fill tr-delay04" data-text="To Help">To Help...</span><br>
-									<span class="load-title-fill tr-delay05" data-text="Lets Talk">Lets Talk!</span>
+									<span class="load-title-fill tr-delay04" data-text="To Help...">To Help...</span><br>
+									<span class="load-title-fill tr-delay05" data-text="Lets Talk!">Lets Talk!</span>
 								</h2>
 								
 				  			</div>
@@ -211,7 +211,7 @@
 					<div class="contact-form-container">
 						<!-- container start -->
 						<div class="container small top-bottom-padding-120 form-box">
-							<h4 class="small-title-oswald text-color-4 text-center">Lets Get In Touch!</h4>
+							<h4 class="small-title-oswald text-color-4 text-center">Write to Us!</h4>
 							<!-- flex-container start -->
 							<form class="flex-container top-padding-90" method="post" action =process.php name="formobrsv" id="send_form">
 								<!-- column start -->
@@ -249,14 +249,7 @@
 									    </span>
 									</button>
 								</div><!-- column end -->
-								<!-- Success and Error Messages -->
-									<?php if (isset($_GET['status'])) {
-										if ($_GET['status'] == 'success') {
-										echo '<p class="success-message">Thank you for your message!</p>';
-										} else if ($_GET['status'] == 'error') {
-										echo '<p class="error-message">Sorry, there was a problem sending your message. Please try again later.</p>';
-										}
-									} ?>
+								
 							</form><!-- flex-container end -->
 						</div><!-- container end -->
 
