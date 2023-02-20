@@ -390,7 +390,7 @@ $(function() {
 		var message = $("#message").val().trim();
 
 		$.ajax({
-			url: 'assets/ajax/mail.php',
+			url: 'process.php',
 			type: 'POST',
 			cache: false,
 			data: {'first_name': first_name, 'last_name': last_name, 'email': email, 'message': message},
