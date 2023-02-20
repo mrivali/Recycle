@@ -249,6 +249,14 @@
 									    </span>
 									</button>
 								</div><!-- column end -->
+								<!-- Success and Error Messages -->
+									<?php if (isset($_GET['status'])) {
+										if ($_GET['status'] == 'success') {
+										echo '<p class="success-message">Thank you for your message!</p>';
+										} else if ($_GET['status'] == 'error') {
+										echo '<p class="error-message">Sorry, there was a problem sending your message. Please try again later.</p>';
+										}
+									} ?>
 							</form><!-- flex-container end -->
 						</div><!-- container end -->
 
