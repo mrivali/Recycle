@@ -1,6 +1,6 @@
 <?php
 // Set the recipient email address
-$to = "your.email@example.com";
+$to = "iam.mrivali@gmail.com";
 
 // Sanitize and encode form data to prevent injection attacks and XSS
 $first_name = htmlspecialchars(filter_var($_POST["first_name"], FILTER_SANITIZE_STRING), ENT_QUOTES, 'UTF-8');
